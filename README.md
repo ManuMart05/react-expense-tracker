@@ -2,7 +2,7 @@
 
 A modern, high-performance expense tracker built with **React 18**, **Vite**, and the **Context API**. This project features a sleek dark UI, smooth animations, and persistent data storage.
 
-![Expense Tracker Demo](https://raw.githubusercontent.com/Indatech/react-expense-tracker/main/public/demo.webp)
+![Expense Tracker Demo](https://raw.githubusercontent.com/ManuMart05/react-expense-tracker/main/public/demo.webp)
 
 ## 🚀 Features
 
@@ -27,7 +27,7 @@ To run this project locally:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/react-expense-tracker.git
+   git clone https://github.com/ManuMart05/react-expense-tracker.git
    ```
 
 2. **Navigate into the project directory**
@@ -59,4 +59,4 @@ This project demonstrates proficiency in:
 
 ---
 
-Built with ❤️ by [Your Name](https://github.com/YOUR_USERNAME)
+Built with ❤️ by [Your Name](https://github.com/ManuMart05)
