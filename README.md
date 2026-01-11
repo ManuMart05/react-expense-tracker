@@ -59,4 +59,8 @@ This project demonstrates proficiency in:
 
 ---
 
+<<<<<<< HEAD
 Built with ❤️ by [ManuMart05](https://github.com/ManuMart05)
+=======
+Built with ❤️ by Manuel Martin(https://github.com/ManuMart05)
+>>>>>>> f2512ddf1de2e24558e97502448f724b1277b253
