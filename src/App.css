@@ -1,0 +1,148 @@
+.inc-exp-container {
+  background-color: var(--card-bg);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid var(--border-color);
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.money.plus {
+  color: var(--income-color);
+}
+
+.money.minus {
+  color: var(--expense-color);
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.container {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 400px;
+  animation: fadeIn 0.6s ease-out;
+}
+
+.list li {
+  background-color: var(--card-bg);
+  box-shadow: var(--shadow);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.list li:hover {
+  transform: scale(1.02);
+}
+
+.list li.plus {
+  border-right: 5px solid var(--income-color);
+}
+
+.list li.minus {
+  border-right: 5px solid var(--expense-color);
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: var(--expense-color);
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-radius: 4px 0 0 4px;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+input[type='text'],
+input[type='number'] {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  display: block;
+  font-size: 16px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 15px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input[type='text']:focus,
+input[type='number']:focus {
+  border-color: var(--primary-color);
+}
+
+h3 {
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  font-size: 1.25rem;
+  color: var(--text-primary);
+}
+
