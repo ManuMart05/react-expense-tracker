@@ -59,4 +59,4 @@ This project demonstrates proficiency in:
 
 ---
 
-Built with ❤️ by [Your Name](https://github.com/ManuMart05)
+Built with ❤️ by [ManuMart05](https://github.com/ManuMart05)
